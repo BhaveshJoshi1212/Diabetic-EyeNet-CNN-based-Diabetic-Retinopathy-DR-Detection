@@ -7,6 +7,9 @@
 
 This project aims to develop an automated system for detecting and classifying diabetic retinopathy using deep learning techniques. By employing convolutional neural networks (CNNs), the goal is to create a model that can accurately categorize retinal images into different stages of diabetic retinopathy.
 
+![image](https://github.com/user-attachments/assets/f8d055ae-0af2-474d-a340-0a035ca6b10f)
+
+
 ## Data
 
 The dataset used for this project consists of retinal images with associated labels indicating the severity of Diabetic Retinopathy. The images have been processed to a consistent size and format for model training.
