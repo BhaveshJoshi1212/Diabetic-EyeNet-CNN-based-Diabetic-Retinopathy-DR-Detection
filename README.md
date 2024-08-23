@@ -34,7 +34,7 @@ By automating the DR detection process, this project aims to support early inter
    - **Resizing**: The images are resized to a consistent dimension of 224x224 pixels to ensure uniform input size for the model.
    - **Normalization**: Pixel values are scaled to the range [0, 1] by dividing by 255.0. This helps in improving model convergence during training.
 
-2. **Data Augmentation**:
+2. **Data transformation**:
    - **ImageDataGenerator**: Utilized for data augmentation and normalization. It helps in creating additional variations of the training images by applying random transformations such as rotations, shifts, and flips. This improves the model’s robustness and generalization.
 
 ### Model Development
