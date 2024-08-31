@@ -1,4 +1,4 @@
-# Diabetic-EyeNet-CNN-based-Diabetic-Retinopathy-DR-Detection
+# Diabetic-EyeNet-CNN-and-Transfer-Learning-based-Diabetic-Retinopathy-DR-Detection
 
 
 ## Problem Statement
@@ -43,9 +43,9 @@ By automating the DR detection process, this project aims to support early inter
    - **Activation Functions**: ReLU (Rectified Linear Unit) is used for introducing non-linearity and enhancing the model's ability to capture complex patterns.
    - **Batch Normalization**: Applied after convolutional layers to stabilize and accelerate the training process by normalizing the activations.
    - **Dense Layers**: Fully connected layers at the end of the network, culminating in a softmax activation function to output class probabilities.
-
-2. **Training and Evaluation**:
-   - **Binary Crossentropy Loss**: Used as the loss function for binary classification (DR vs. No DR).
+2. **VGG16 AND ResNet50**
+3. **Training and Evaluation**:
+   - **CategoricalCrossentropy**: Used as the loss function for Multiclass classification (no dr, moderate dr, severe dr).
    - **Adam Optimizer**: An adaptive learning rate optimizer used to minimize the loss function during training.
 
 ### OpenCV for Prediction
